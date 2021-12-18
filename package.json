@@ -1,0 +1,41 @@
+{
+  "name": "react-shop",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "firebase": "^9.6.1",
+    "prop-types": "^15.6.2",
+    "react": "16.7.0",
+    "react-dom": "16.7.0",
+    "react-icons": "^3.9.0",
+    "react-redux": "6.0.0",
+    "react-router": "4.3.1",
+    "react-router-dom": "4.3.1",
+    "react-scripts": "^3.4.3",
+    "react-stripe-elements": "^2.0.2",
+    "redux": "4.0.1",
+    "redux-thunk": "2.3.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "docker-run-dev": "docker-compose up -d --build",
+    "docker-run-prod": "docker-compose -f docker-compose.prod.yaml up -d --build",
+    "docker-stop": "docker-compose stop"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "redux-devtools-extension": "^2.13.8"
+  }
+}
