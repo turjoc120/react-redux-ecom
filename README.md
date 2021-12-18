@@ -11,6 +11,7 @@
 
 - React
 - Redux
+- Docker
 - Bootstrap CSS
 - Node JS
 - Express JS
